@@ -9,7 +9,10 @@ body {
 	margin: 0 auto;
 	padding: 75px 0 75px 0;
 	font-family: 'Lato', sans-serif;
-	font-size: 3em;
+	font-size: 3.5em;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
 
 #date {
@@ -18,7 +21,9 @@ body {
 	margin: 0 auto;
 	padding: 50px 0 75px 0;
 	font-family: 'Lato', sans-serif;
-	font-size: 2em;
+	font-size: 1.7em;
+	letter-spacing: .1em;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 #dkbheader {
@@ -31,4 +36,28 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#instructions {
+	margin: auto;
+}
+
+#down {
+	width: 150px;
+	height: 75px;
+/*	margin: 0 auto;*/
+/*	text-align: center;*/
+	display: block;
+  margin: 150px auto 75px auto;
+ 	background-color: rgba(0,0,0, 0.2);
+ 	border-radius: 150px;
+}
+
+#scroll {
+	margin-top: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
